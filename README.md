@@ -96,15 +96,15 @@ The code is structured in multiple modules for clarity and separation of concern
 ├── main.py                   # Main program logic to handle PDF processing and question answering
 ├── pdf_processor.py          # Handles PDF reading and processing
 ├── query_engine.py           # Module for querying the OpenAI API and retrieving the answers
-├── chunker.py      # Contains logic for semantic chunking of the PDF content
+├── chunker.py                # Contains logic for semantic chunking of the PDF content
 ├── README.md                 # Project documentation
-└── input_files/             
-    ├── handbook.pdf          # Input PDF document (handbook)
-    └── questions.txt         # Sample text file with questions
+├── requirements.txt          # List of dependencies
+├── input_files/             
+│   ├── handbook.pdf          # Input PDF document (handbook)
+│   └── questions.txt         # Sample text file with questions
 └── output_files/             
-    ├── answers.json         # Question-Answer pair
-├── README.md                 # Project documentation
-└── requirements.txt          # List of dependencies
+    └── answers.json          # Question-Answer pair
+
 
 
 ### OpenAI API Key
