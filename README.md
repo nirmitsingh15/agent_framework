@@ -92,6 +92,7 @@ The code is structured in multiple modules for clarity and separation of concern
 - What is the termination policy?
 
 ### Project Structure
+```graphsql
 .
 ├── main.py                   # Main program logic to handle PDF processing and question answering
 ├── pdf_processor.py          # Handles PDF reading and processing
@@ -104,8 +105,7 @@ The code is structured in multiple modules for clarity and separation of concern
 │   └── questions.txt         # Sample text file with questions
 └── output_files/             
     └── answers.json          # Question-Answer pair
-
-
+```
 
 ### OpenAI API Key
 
