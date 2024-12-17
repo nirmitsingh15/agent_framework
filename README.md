@@ -39,9 +39,8 @@ To run the agent, follow these steps:
 
 1. Clone the repository:
 
-   `git clone https://github.com/your-username/ai-question-answering-from-pdf.git`
+   `git clone https://github.com/nirmitsingh15/agent_framework.git`
 
-   `cd ai-question-answering-from-pdf`
 
 2. Install dependencies:
 
@@ -53,7 +52,7 @@ To run the agent, follow these steps:
 
    To run the agent, use the following command:
 
-   `python main.py --pdf_path <path_to_pdf_file> --questions_file <path_to_questions_file> --context "Answer the questions in one liner"`
+   `python main.py --pdf_path <path_to_pdf_file> --questions_file <path_to_questions_file> --context <Any additional context you want to provide>`
 
    Replace `<path_to_pdf_file>` with the path to your PDF document and `<path_to_questions_file>` with the path to your text file containing the questions.
 
